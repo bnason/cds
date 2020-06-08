@@ -572,6 +572,7 @@ func (a *API) Serve(ctx context.Context) error {
 				SSL:            a.Config.Auth.LDAP.SSL,
 				UserSearchBase: a.Config.Auth.LDAP.UserSearchBase,
 				UserSearch:     a.Config.Auth.LDAP.UserSearch,
+				UserDN:         a.Config.Auth.LDAP.UserDN,
 				UserFullname:   a.Config.Auth.LDAP.UserFullname,
 				UserEmail:      a.Config.Auth.LDAP.UserEmail,
 				UserExternalID: a.Config.Auth.LDAP.UserExternalID,
